@@ -12,10 +12,6 @@ This configuration uses [lazy.nvim](https://github.com/folke/lazy.nvim) to manag
 
 ### Core Plugins (from LazyVim)
 
-### Custom Plugins and Configuration
-
-The following customizations have been applied.
-
 * LazyVim
 * blink.cmp 
 * bufferline.nvim
@@ -59,7 +55,12 @@ The following customizations have been applied.
 * which-key.nvim
 * yanky.nvim
 
-  
+ ### Custom Plugins and Configuration
+
+The following customizations have been applied.
+
+* Augment Code 
+
 ## How it Works
 
 This configuration is loaded from `init.lua`, which bootstraps `lazy.nvim` and the rest of the configuration. The main configuration is in `lua/config/lazy.lua`, which sets up `lazy.nvim` and loads the plugins.
