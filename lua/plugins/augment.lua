@@ -3,7 +3,7 @@ return {
   cmd = "Augment",
   keys = {
     { "<leader>ac", "<cmd>Augment chat<cr>", desc = "Augment Chat" },
-    { "<leader>at", "<cmd>Augmnet chat-toggle<cr>", desc = "Augment Toggle" },
-    { "<leader>an", "<cmd>Augmnet chat-new<cr>", desc = "Augment New" },
+    { "<leader>at", "<cmd>Augment chat-toggle<cr>", desc = "Augment Toggle" },
+    { "<leader>an", "<cmd>Augment chat-new<cr>", desc = "Augment New" },
   },
 }
