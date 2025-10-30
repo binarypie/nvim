@@ -4,17 +4,17 @@ return {
     picker = {
       files = {
         sources = {
-          exclude = { "build/**", "target/**" },
+          exclude = { "build/**", "target/**", ".git", ".dart_tool" },
           hidden = true,
           ignored = true,
         },
         grep = {
-          exclude = { "build/**", "target/**" },
+          exclude = { "build/**", "target/**", ".git", ".dart_tool" },
           hidden = true,
           ignored = true,
         },
         explorer = {
-          exclude = { "build/**", "target/**" },
+          exclude = { "build/**", "target/**", ".git", ".dart_tool" },
           hidden = true,
           ignored = true,
         },
